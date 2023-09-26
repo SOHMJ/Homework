@@ -27,7 +27,7 @@
             },
             "transform": [
                 {
-                    "filter": "datum.Longitude != 'nan'"
+                    "filter": "datum.Longtitude != 'nan' || datum.Latitude != 'nan'"
                 }
             ],
             "mark": {
